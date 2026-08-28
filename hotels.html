@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/4.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="my_world.html" class="logo">Trav<span>el</span></a>
+        <ul class="navlinks">
+            <li><a href="my_world.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="social-icons">
+            <a href="https://www.tiktok.com/@bryxivanmercado"><i class="ri-tiktok-fill"></i></a>
+            <a href="https://www.facebook.com/mercado.bryx.ivan"><i class="ri-facebook-fill"></i></a>
+            <a href="https://www.instagram.com/mercadobryxivan/"><i class="ri-instagram-line"></i></a>
+            <i class="ri-menu-line" id="menu-btn"></i>
+        </div>
+    </header>
+
+    <section class="hotels" id="hotels">
+
+        <div class="hotels-text">
+            <h2>Our Hotels</h2>
+            <h1>Discover Our Luxury Accommodations</h1>
+            <p>Experience comfort and elegance at our premium hotels, strategically located to provide you with easy access to the best attractions and activities.<br> Our carefully curated selection of accommodations ensures a memorable stay, whether you're traveling for business or leisure.<br> Book your stay with us and enjoy unparalleled service and amenities.</p>
+            <a href="#" class="btn">View Hotels</a>
+        </div>
+
+        
+    </section>
+
+    <script>
+       let menu = document.querySelector('#menu-btn');
+       let navlinks = document.querySelector('.navlinks');
+
+        menu.onclick = () =>{
+            navlinks.classList.toggle('open');
+        };
+    </script>
+</body>
+</html>

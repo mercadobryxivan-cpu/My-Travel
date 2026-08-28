@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/4.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="my_world.html" class="logo">Trav<span>el</span></a>
+        <ul class="navlinks">
+            <li><a href="my_world.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="social-icons">
+            <a href="https://www.tiktok.com/@bryxivanmercado"><i class="ri-tiktok-fill"></i></a>
+            <a href="https://www.facebook.com/mercado.bryx.ivan"><i class="ri-facebook-fill"></i></a>
+            <a href="https://www.instagram.com/mercadobryxivan/"><i class="ri-instagram-line"></i></a>
+            <i class="ri-menu-line" id="menu-btn"></i>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-text">
+            <h5>Welcome to Our Travel Website</h5>
+            <h1>Explore the World with Us</h1>
+            <p>Discover breathtaking destinations, plan your perfect trip,<br> and create unforgettable memories with our expert travel guides and services.</p>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <script>
+       let menu = document.querySelector('#menu-btn');
+       let navlinks = document.querySelector('.navlinks');
+
+        menu.onclick = () =>{
+            navlinks.classList.toggle('open');
+        };
+    </script>
+</body>
+</html>
